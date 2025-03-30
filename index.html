@@ -6,44 +6,47 @@
     <title>Tom Schmitz - Personal Website</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Arial, sans-serif';
             margin: 0;
             padding: 0;
             line-height: 1.6;
             color: #333;
-            background-color: #f8f8f8;
+            background: linear-gradient(135deg, #e0f7fa, #c8e6c9);
         }
 
         header {
-            background-color: #0077b5;
+            background-color: rgba(0, 0, 0, 0.8);
             color: white;
             text-align: center;
-            padding: 2em 0;
+            padding: 3em 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         header h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 3em;
+            letter-spacing: 2px;
         }
 
         .container {
-            width: 80%;
-            margin: 2em auto;
+            width: 85%;
+            margin: 3em auto;
             background-color: white;
-            padding: 2em;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 3em;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
 
         .section {
-            margin-bottom: 2em;
+            margin-bottom: 3em;
         }
 
         .section h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 0.5em;
-            margin-bottom: 1em;
+            border-bottom: 3px solid #0077b5;
+            padding-bottom: 0.8em;
+            margin-bottom: 1.5em;
             color: #0077b5;
+            font-size: 2em;
         }
 
         .skills-list {
@@ -52,19 +55,22 @@
         }
 
         .skills-list li {
-            margin-bottom: 0.5em;
+            margin-bottom: 0.8em;
+            font-size: 1.1em;
         }
 
         footer {
             text-align: center;
-            padding: 1em 0;
-            background-color: #ddd;
-            font-size: 0.9em;
+            padding: 2em 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            font-size: 1em;
         }
 
         a {
             color: #0077b5;
             text-decoration: none;
+            font-weight: bold;
         }
 
         a:hover {
@@ -76,28 +82,27 @@
 
     <header>
         <h1>Tom Schmitz</h1>
-        <p>Personal Website</p>
+        <p>Exploring Technology and Innovation</p>
     </header>
 
     <div class="container">
         <section class="section">
             <h2>Home</h2>
-            <p>Welcome to my personal website! I'm Tom.</p>
-            <p>This website is part of a personal project aimed at gaining proficiency in GitHub, and thus should be considered a work in progress. The content primarily focuses on my computer and IT skills gained throughout my life, certified or not. Although the information provided here is quite limited, I hope that you might still find it useful and informative. Thank you for visiting.</p>
+            <p>Welcome! This site is a personal project showcasing my IT skills and journey. It's a work in progress, so your patience is appreciated. Feel free to explore and learn a bit about my experiences.</p>
         </section>
 
         <section class="section">
             <h2>About Me</h2>
-            <p>My engagement with computers commenced in the mid-1980s, starting with learning Logo on school computers and Basic for playing games on the Amstrad PC, known as the Schneider PC in Europe during that period, remember the Matrix-like screens? The system operated on an 8088 chipset and used audio cassette tapes for game data storage. A bit later, someone in my street got an Atari PC with colour screen and some actual memory. We all acquired skills in system hacking to optimize the limited memory for gaming purposes. Although I did not pursue a career in computing, I have consistently stayed informed about advancements in the field and nurtured a personal interest in technology.</p>
+            <p>My tech journey began in the 80s, playing with Logo and Basic on early PCs. While my career didn't fully dive into computing, I've always been passionate about staying updated and exploring new technologies.</p>
         </section>
 
         <section class="section">
             <h2>Coding Skills</h2>
             <ul class="skills-list">
-                <li>Basic knowledge of C++</li>
-                <li>Basic knowledge of HTML</li>
-                <li>Intermediate proficiency in Python</li>
-                <li>Experience using Scratch and Logo</li>
+                <li>C++ (Basic)</li>
+                <li>HTML (Basic)</li>
+                <li>Python (Intermediate)</li>
+                <li>Scratch & Logo</li>
             </ul>
         </section>
 
@@ -106,62 +111,64 @@
             <ul class="skills-list">
                 <li>PyCharm</li>
                 <li>Adobe Photoshop</li>
-                <li>MS Office and LibreOffice</li>
+                <li>MS & LibreOffice</li>
             </ul>
         </section>
 
         <section class="section">
-            <h2>System Administration Skills</h2>
+            <h2>System Administration</h2>
             <ul class="skills-list">
-                <li>GNU Linux (Mandrake, RedHat, Ubuntu, Zorin, Parrot)</li>
-                <li>MS-DOS and MS-Windows (since 3.01)</li>
-                <li>Linux Server administration (VPS)</li>
-                <li>Development of websites using the LAMP stack</li>
-                <li>Remote management</li>
-                <li>System and server security</li>
-                <li>Linux command line and shell scripting</li>
+                <li>GNU/Linux (Various Distros)</li>
+                <li>MS-DOS/Windows</li>
+                <li>Linux Server (VPS)</li>
+                <li>LAMP Stack</li>
+                <li>Remote Management & Security</li>
+                <li>Shell Scripting</li>
             </ul>
         </section>
 
         <section class="section">
             <h2>Certifications</h2>
             <ul class="skills-list">
-                <li>An Introduction to Interactive Programming in Python (2015 – Coursera, Rice University)</li>
-                <li>Google IT Support (2022 – Coursera, Google)</li>
-                <ul>
-                    <li>Technical Support Fundamentals</li>
-                    <li>The Bits and Bytes of Computer Networking</li>
-                    <li>Operating Systems and You: Becoming a Power User</li>
-                    <li>System Administration and IT Infrastructure Services</li>
-                    <li>IT Security: Defense against the digital dark arts</li>
-                </ul>
-                <li>IT Fundamentals for Cybersecurity (2022 – Coursera, IBM)</li>
-                <li>Introduction to Cybersecurity Tools & Cyberattacks</li>
-                <li>Operating Systems: Overview, Administration, and Security</li>
-                <li>Cybersecurity Compliance Framework, Standards & Regulations</li>
-                <li>Computer Networks and Network Security</li>
-                <li>Introduction to Structured Query Language (2022 – Coursera, University of Michigan)</li>
-                <li>Python Basics (2025 – Coursera, University of Michigan)</li>
-                <li>Python Functions, Files, and Dictionaries (2025 – Coursera, University of Michigan)</li>
-                <li>AI Python for Beginners (2025 – Coursera, DeepLearning.AI)</li>
-                <li>PCEP – Certified Entry-Level Python Programmer (2025 – OpenEDG)</li>
+                <li>Python Programming (Rice University)</li>
+                <li>Google IT Support:
+                    <ul>
+                        <li>Tech Support Fundamentals</li>
+                        <li>Networking Basics</li>
+                        <li>OS & Power User</li>
+                        <li>IT Infrastructure Services</li>
+                        <li>IT Security</li>
+                    </ul>
+                </li>
+                <li>IBM Cybersecurity:
+                    <ul>
+                        <li>Cybersecurity Tools & Attacks</li>
+                        <li>OS & Security</li>
+                        <li>Compliance Frameworks</li>
+                        <li>Network Security</li>
+                    </ul>
+                </li>
+                <li>SQL (University of Michigan)</li>
+                <li>Advanced Python (University of Michigan)</li>
+                <li>AI Python (DeepLearning.AI)</li>
+                <li>PCEP (OpenEDG)</li>
             </ul>
         </section>
 
         <section class="section">
             <h2>Hardware Skills</h2>
             <ul class="skills-list">
-                <li>Proficient in opening computer systems and identifying individual components</li>
-                <li>Knowledge of basic soldering techniques</li>
-                <li>Experience in replacing laptop HDDs, SSDs, and RAM modules</li>
-                <li>Ability to replace laptop keyboards</li>
+                <li>Component Identification</li>
+                <li>Basic Soldering</li>
+                <li>Laptop Upgrades (HDD, SSD, RAM)</li>
+                <li>Keyboard Replacement</li>
             </ul>
         </section>
 
         <section class="section">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:killertik@protonmail.ch">killertik@protonmail.ch</a></p>
-            <p>GitHub: <a href="https://github.com/killertik" target="_blank">https://github.com/killertik</a></p>
+            <p>GitHub: <a href="https://github.com/killertik" target="_blank">github.com/killertik</a></p>
         </section>
     </div>
 
